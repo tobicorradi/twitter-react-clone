@@ -1,0 +1,63 @@
+.welcome__info,
+.welcome__actions {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.welcome__actions {
+  order: 1;
+}
+.welcome__info {
+  background-color: var(--light-blue);
+  color: white;
+  font-size: 20px;
+}
+.welcome__info .logo {
+  position: absolute;
+  width: 120%;
+  top: -90px;
+}
+.welcome__infoBlock:not(:last-child) {
+  margin-bottom: 50px;
+}
+.welcome__infoBlock > span {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.welcome__infoBlock > span > svg {
+  margin-right: 13px;
+  font-size: 25px;
+}
+.welcome__title {
+  margin-bottom: 50px;
+}
+.welcome__container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px 0;
+  position: relative;
+  z-index: 2;
+}
+.welcome__text {
+  margin-bottom: 15px;
+}
+@media (min-width: 800px) {
+  .welcome {
+    display: flex;
+    height: 100vh;
+  }
+  .welcome__info,
+  .welcome__actions {
+    display: flex;
+    align-items: center;
+  }
+  .welcome__container {
+    padding: 0 30px;
+  }
+  .welcome__info .logo {
+    top: 50%;
+    width: 180%;
+    transform: translate(0, -50%);
+  }
+}
