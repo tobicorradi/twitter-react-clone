@@ -1,0 +1,9 @@
+.inputText {
+  background-color: #ebeef0;
+  border-radius: 50px;
+  width: 100%;
+  padding: 12px;
+  border: 0;
+  outline: 0;
+  position: relative;
+}

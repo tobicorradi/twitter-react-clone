@@ -1,0 +1,33 @@
+.widgetColumn {
+  position: sticky;
+  top: 0;
+  width: 350px;
+  padding: 20px;
+  padding-top: 10px;
+}
+.widgetColumn__form {
+  position: relative;
+  margin-bottom: 14px;
+}
+.widgetColumn__search {
+  position: absolute;
+  left: 17px;
+  top: 11px;
+  width: 19px;
+  background: transparent;
+  border: 0;
+}
+.widgetColumn .inputText {
+  padding-left: 42px;
+}
+.widgetColumn__footer {
+  padding: 0 8px;
+  margin-top: 20px;
+}
+.widgetColumn__footer span {
+  font-size: 13px;
+  color: rgb(91, 112, 131);
+}
+.widgetColumn__footer span:not(:last-child) {
+  margin-right: 10px;
+}

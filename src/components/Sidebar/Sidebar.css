@@ -1,0 +1,57 @@
+.sidebar {
+  display: none;
+}
+.sidebar__userBlock {
+  display: flex;
+  align-items: center;
+}
+.sidebar__username {
+  display: none;
+}
+.sidebar__userBlock {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+}
+.sidebar__avatar {
+  margin-right: 11px;
+}
+.sidebar .btn-wrapper {
+  display: none;
+}
+@media (min-width: 500px) {
+  .sidebar {
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    flex-grow: 1;
+  }
+  .sidebar__container {
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+  .sidebar .logo {
+    width: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1300px) {
+  .sidebar__container {
+    align-items: flex-start;
+    padding: 20px 0;
+    width: 235px;
+  }
+  .sidebar__username {
+    display: block;
+  }
+  .sidebar .btn-wrapper {
+    display: block;
+  }
+}

@@ -1,0 +1,30 @@
+.writeTweet {
+  display: flex;
+  padding: 15px;
+  border-bottom: var(--border);
+}
+.writeTweet__header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+}
+.writeTweet__input {
+  border: 0;
+  font-size: 20px;
+  margin-top: 7px;
+}
+.writeTweet_actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+.writeTweet__icons svg {
+  color: var(--main-blue);
+  font-size: 25px;
+}
+.writeTweet__icons svg:not(:last-child) {
+  margin-right: 10px;
+}

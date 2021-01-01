@@ -1,0 +1,33 @@
+.login__title {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.login__container {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+.login__input.MuiTextField-root {
+  width: 100%;
+  background: transparent;
+  margin-bottom: 15px;
+  border: 0.8px solid rgb(172, 172, 172);
+  border-radius: 5px;
+}
+.login__input.MuiTextField-root > * {
+  background: transparent;
+}
+.login__input input:focus,
+.login__input input:active {
+  border-color: var(--main-blue);
+}
+.login__input .MuiFilledInput-underline:before {
+  content: none !important;
+}
+@media (min-width: 768px) {
+  .login {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+}

@@ -1,0 +1,11 @@
+@media (min-width: 500px) {
+  .home {
+    display: flex;
+  }
+}
+/* @media (min-width: 1300px) {
+  .home {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+} */

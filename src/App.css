@@ -2,8 +2,13 @@
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", sans-serif;
+  box-sizing: border-box;
 }
 :root {
   --main-blue: rgba(29, 161, 242, 1);
   --light-blue: rgb(116, 202, 254);
+  --border: 1px solid rgb(226, 226, 226);
+}
+img{
+  max-width: 100%;
 }

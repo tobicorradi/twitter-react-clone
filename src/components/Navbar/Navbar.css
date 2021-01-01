@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background: white;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  border-top: var(--border);
+}
+.navbar .iconButton {
+  margin-bottom: 0;
+}
+.navbar svg {
+  fill: rgb(91, 112, 131);
+}
+@media (min-width: 500px) {
+  .navbar {
+    display: none;
+  }
+}

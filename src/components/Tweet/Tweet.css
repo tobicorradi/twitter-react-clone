@@ -1,0 +1,47 @@
+.tweet {
+  padding: 15px;
+  border-bottom: var(--border);
+  display: flex;
+  align-items: flex-start;
+}
+.tweet__avatar {
+  margin-right: 10px;
+}
+.tweet__authorBlock,
+.tweet__actions,
+.tweet__button {
+  display: flex;
+  align-items: center;
+}
+.tweet__authorBlock,
+.tweet__content {
+  font-size: 15px;
+}
+.tweet__name,
+.tweet__username {
+  margin-right: 9px;
+}
+.tweet__text {
+  line-height: 22px;
+}
+.tweet__tag {
+  color: var(--main-blue);
+  margin-right: 5px;
+}
+.tweet__actions {
+  justify-content: space-between;
+  max-width: 390px;
+  margin-top: 15px;
+}
+.tweet__button {
+  font-size: 13px;
+}
+.tweet__button svg {
+  width: 18px;
+  margin-right: 7px;
+}
+.tweet__img {
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 15px;
+}

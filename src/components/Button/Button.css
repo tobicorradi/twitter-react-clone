@@ -6,12 +6,16 @@
   font-weight: bold;
   cursor: pointer;
   width: 100%;
-  margin-bottom: 15px;
 }
 .main-btn {
   background-color: var(--main-blue);
   color: white;
   border: 0;
+  transition: all 0.15s ease-in-out;
+}
+.main-btn:hover {
+  background-color: #208ed1;
+  transition: all 0.15s ease-in-out;
 }
 .secondary-btn {
   background-color: transparent;

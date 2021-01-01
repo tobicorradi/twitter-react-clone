@@ -1,0 +1,33 @@
+.main__content {
+  max-width: 600px;
+}
+.content__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 20px;
+  border-bottom: var(--border);
+}
+.content__title {
+  font-size: 19px;
+}
+.content__header svg {
+  width: 20px;
+}
+@media (min-width: 500px) {
+  .content {
+    border-left: var(--border);
+    flex-grow: 1;
+  }
+}
+@media (min-width: 1300px) {
+  .content__container {
+    display: flex;
+    align-items: flex-start;
+  }
+  .main__content {
+    max-width: 600px;
+    border-right: var(--border);
+  }
+}

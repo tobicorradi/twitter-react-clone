@@ -1,0 +1,11 @@
+.trend {
+  border-bottom: var(--border);
+}
+.trend__title {
+  font-size: 15px;
+  display: block;
+}
+.trend__info {
+  font-size: 13px;
+  color: rgb(91, 112, 131);
+}

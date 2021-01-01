@@ -1,0 +1,15 @@
+.trendBox {
+  background-color: #f7f9fa;
+  border-radius: 15px;
+}
+.trendBox__header {
+  border-bottom: var(--border);
+}
+.trendBox__header,
+.trendBox__bottom,
+.trend {
+  padding: 15px;
+}
+.trendBox__bottom {
+  color: var(--main-blue);
+}

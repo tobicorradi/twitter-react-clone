@@ -1,0 +1,27 @@
+.iconButton {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.iconButton .material-icons {
+  font-size: 26px;
+}
+.iconButton__title {
+  display: none;
+}
+.iconButton__title {
+  color: #0f1419;
+}
+.iconButton svg {
+  fill: #0f1419;
+}
+@media (min-width: 1300px) {
+  .iconButton__title {
+    display: block;
+    font-size: 19px;
+  }
+  .iconButton .material-icons {
+    font-size: 26px;
+    margin-right: 20px;
+  }
+}

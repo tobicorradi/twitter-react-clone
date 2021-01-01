@@ -20,7 +20,11 @@ const Welcome = () => {
               <strong>Únete a Twitter hoy mismo.</strong>
             </p>
             <Button type={"main"} title={"Regístrate"} />
-            <Button type={"secondary"} title={"Iniciar Sesión"} />
+            <Button
+              type={"secondary"}
+              title={"Iniciar Sesión"}
+              route={"/login"}
+            />
           </div>
         </div>
         <div className="welcome__info">
